@@ -6,7 +6,7 @@ from typing import Union
 from typing import Tuple
 
 
-def to_kv(k: str, v: Union[float, str]) -> Tuple[int, float]:
+def to_kv(k: str, v: Union[float, str]) -> Tuple[str, float]:
     '''Return a tuple
     The first element of the tuple
     is the string k. The second element
