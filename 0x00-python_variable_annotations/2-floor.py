@@ -5,6 +5,6 @@ type'''
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     '''return the floor of the argument'''
     return math.floor(n)
